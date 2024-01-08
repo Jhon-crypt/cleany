@@ -4,7 +4,7 @@ export default function Header() {
 
         <>
 
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg pt-3">
                 <div className="container">
                     <a id="nav-text-head" className="navbar-brand" href="#">Cleany</a>
                     <button className="navbar-toggler"
@@ -32,7 +32,8 @@ export default function Header() {
                             </li>
                         </ul>
                         <div className="d-flex">
-                            <button id="nav-login-button">Login</button>
+                            <button className="border border-0 me-2" id="nav-login-button">Login</button>
+                            <button className="border border-0" id="nav-signup-button">Signup</button>
                         </div>
                     </div>
                 </div>

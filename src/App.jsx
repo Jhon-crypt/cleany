@@ -1,4 +1,5 @@
 import Header from './components/header'
+import Hero from './components/hero'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div id="section">
         <Header />
+        <Hero />
       </div>
     </>
   )
