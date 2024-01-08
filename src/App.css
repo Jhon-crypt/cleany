@@ -1,0 +1,24 @@
+#section {
+  background-image: url("/bg-header.png");
+  height: 36rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nav-text-head {
+  color: #118ac5;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 100% */
+  letter-spacing: 0.3px;
+}
+
+#nav-text-items {
+  color: #121212;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 100% */
+  letter-spacing: 0.3px;
+}
