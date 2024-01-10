@@ -270,9 +270,32 @@
 }
 
 #services-card {
-  width: 250px;
   height: 341px;
   flex-shrink: 0;
   background: #f4f6fb;
+  text-align: center;
+}
+
+#services-card:hover {
   box-shadow: 0px 4px 90px 0px rgba(0, 0, 0, 0.15);
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+#services-card-text-heading {
+  color: #343434;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 100% */
+  letter-spacing: 0.3px;
+}
+
+#services-card-text-lead {
+  color: #333539;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.3px;
 }
