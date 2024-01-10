@@ -2,6 +2,7 @@ import { MobileView } from 'react-device-detect';
 import Header from './components/header'
 import Hero from './components/hero'
 import FeaturesHero from './components/featuresHero';
+import ServicesSection from './components/servicesSection';
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       </MobileView>
 
       <FeaturesHero />
+      <ServicesSection />
 
     </>
   )

@@ -236,8 +236,43 @@
 #feature-hero-thumbnail2 {
   position: absolute;
   top: 1040px;
-  left: 430px; 
+  left: 430px;
   border-radius: 10px;
   width: 215.205px;
   height: 279.582px;
+}
+
+#services-section-text-header {
+  color: #000;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 118.519% */
+  letter-spacing: 0.3px;
+}
+
+#services-section-text-header2 {
+  color: #fe7443;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 100% */
+  letter-spacing: 0.3px;
+}
+
+#services-section-text {
+  color: #333539;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.3px;
+}
+
+#services-card {
+  width: 250px;
+  height: 341px;
+  flex-shrink: 0;
+  background: #f4f6fb;
+  box-shadow: 0px 4px 90px 0px rgba(0, 0, 0, 0.15);
 }
